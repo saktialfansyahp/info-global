@@ -10,37 +10,37 @@ git clone https://github.com/saktialfansyahp/info-global.git
 
 ## Instalasi Projek Back End
 
-## Masuk ke direktori be
+### Masuk ke direktori be
 
 ```
 cd be
 ```
 
-## Instal dependensi
+### Instal dependensi
 
 ```
 composer install
 ```
 
-## Salin ENV
+### Salin ENV
 
 ```
 cp .env.example .env
 ```
 
-## Generate kunci aplikasi
+### Generate kunci aplikasi
 
 ```
 php artisan key:generate
 ```
 
-## Generate Jwt Secret Key
+### Generate Jwt Secret Key
 
 ```
 php artisan jwt:secret
 ```
 
-## Konfigurasi PostgreSQL database
+### Konfigurasi PostgreSQL database
 
 - DB_CONNECTION=pgsql
 - DB_HOST=localhost
@@ -51,7 +51,7 @@ php artisan jwt:secret
 
 Sesuaikan host, port, nama database, username, dan passwordnya
 
-## Migrasi Database
+### Migrasi Database
 
 Lakukan perintah dibawah untuk melakukan migrasi database
 
@@ -59,7 +59,7 @@ Lakukan perintah dibawah untuk melakukan migrasi database
 php artisan migrate
 ```
 
-## Jalankan Back End
+### Jalankan Back End
 
 ```
 php artisan serve
