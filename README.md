@@ -42,12 +42,12 @@ php artisan jwt:secret
 
 ## Konfigurasi PostgreSQL database
 
-DB_CONNECTION=pgsql
-DB_HOST=localhost
-DB_PORT=5432
-DB_DATABASE=
-DB_USERNAME=
-DB_PASSWORD=
+- DB_CONNECTION=pgsql
+- DB_HOST=localhost
+- DB_PORT=5432
+- DB_DATABASE=
+- DB_USERNAME=
+- DB_PASSWORD=
 
 Sesuaikan host, port, nama database, username, dan passwordnya
 
