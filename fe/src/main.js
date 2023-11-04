@@ -9,7 +9,7 @@ import "./assets/css/app.css";
 
 // loadFonts();
 
-axios.defaults.baseURL = "http://lynxz.byethost32.com/public";
+axios.defaults.baseURL = "http://127.0.0.1:8000";
 
 // Set header dari localStorage
 // const token = localStorage.getItem("token"); // Ganti 'token' dengan kunci yang Anda gunakan untuk menyimpan token di localStorage
