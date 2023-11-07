@@ -20,14 +20,14 @@
         <form @submit.prevent="submitForm" class="space-y-6">
           <div>
             <label
-              for="email"
+              for="username"
               class="block text-sm font-medium leading-6 text-gray-900"
-              >Email address</label
+              >Username</label
             >
             <div class="mt-2">
               <input
-                id="email"
-                name="email"
+                id="username"
+                name="username"
                 type="text"
                 v-model="username"
                 autocomplete="email"
